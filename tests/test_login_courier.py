@@ -2,7 +2,7 @@ import requests
 import generators
 import allure
 import pytest
-from data import ResponseBody
+from data import ResponseBody, Url
 
 
 class TestLoginCourier:
