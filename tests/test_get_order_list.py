@@ -4,7 +4,6 @@ import requests
 from data import Url, Flags
 
 class TestOrderList:
-
     @allure.title('Test get order list. Handle:/api/v1/orders')
     def test_successful_get_order_list(self):
         response = requests.get(f'{Url.MAIN_URL}{Url.GET_ORDER_LIST}')

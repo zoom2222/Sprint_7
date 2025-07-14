@@ -9,6 +9,8 @@ class Url:
     CREATE_ORDER = 'api/v1/orders' # Courier creation handle
     ORDER_CANCEL = 'api/v1/orders/cancel?track=' # Get order list handle
     TRACK_ORDER = 'api/v1/orders/track?t=' # Track order handle
+    GET_ORDER_LIST = 'api/v1/orders'  # Get order list handle
+
 
 class DataForOrder:
     order_data = {
